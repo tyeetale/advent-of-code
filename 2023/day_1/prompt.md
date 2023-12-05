@@ -1,5 +1,7 @@
 # Day 1: Trebuchet?!
 
+## Part 1
+
 Something is wrong with global snow production, and you've been selected to take a look. The Elves have even given you a map; on it, they've used stars to mark the top fifty locations that are likely to be having problems.
 
 You've been doing this long enough to know that to restore snow operations, you need to check all fifty stars by December 25th.
@@ -25,7 +27,7 @@ In this example, the calibration values of these four lines are 12, 38, 15, and 
 
 Consider your entire calibration document. What is the sum of all of the calibration values?
 
-# Simple English
+### Simple English
 
 - we have a document with lines of text
 - each line has numbers, and we only want the first and last numbers
@@ -33,3 +35,24 @@ Consider your entire calibration document. What is the sum of all of the calibra
 - we want to combine the first and last numbers to form a single number
 - we want to get the sum of all of the numbers in the document
 - this is the answer
+
+## Part 2
+
+Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
+
+Equipped with this new information, you now need to find the real first and last digit on each line. For example:
+
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
+
+What is the sum of all of the calibration values?
+
+### Simple English
+
+- we can have letters spelling out numbers.
